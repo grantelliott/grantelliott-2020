@@ -4,15 +4,10 @@ module.exports = {
       center: true,
       padding: '2rem',
     },
-    fontFamily: {
-      'sans': ['Inter'],
-      'mono': ['Roboto Mono'],
-    },
     extend: {
-      colors: {},
-      fontSize: {
-        'xxs': '0.625rem',
-        'tiny': '0.75rem',
+      fontFamily: {
+        'sans': ['Inter'],
+        'mono': ['Roboto Mono'],
       },
       spacing: {
         '6px': '6px',

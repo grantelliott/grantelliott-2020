@@ -1,0 +1,7 @@
+<div class="container">
+  {% for item in collections.images %}
+    {% if imageFolder in item %}
+      <img class="mb-8 md:mb-16" src="{{ item | replace(" src/static", "="src/static", "" /static") }}" alt="">
+    {% endif %}
+  {% endfor %}
+</div>

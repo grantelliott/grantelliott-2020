@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {% set activePage = page.url %}
+      {% if activePage == '/' %}
+      {{ site.title }} | Photo Blog
+      {% else %}
+      {{ title }}
+      {% endif %}
+    </title>
+    {% if env == 'production' %}
+      <!-- capture the CSS content as a Liquid variable -->
+      {% set css %}{% include "app.compiled.css" %}{% endset %}
+      <style>
+        {{css | safe}}
+      </style>
+    {% else %}
+      <link rel="stylesheet" href="/static/app.compiled.css">
+    {% endif %}
+  </head>
+  <body>
+    {% include 'header.njk' %}
+    {{ content | safe }}
+    {% set activePage = page.url %}
+    {% if activePage != '/' %}{% include 'footer.njk' %}{% endif %}
+  </body>
+</html>

@@ -18,7 +18,6 @@
     "del-cli": "^3.0.0",
     "fast-glob": "^3.2.2",
     "html-minifier": "^4.0.0",
-    "luxon": "^1.23.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.1.4"
   }
