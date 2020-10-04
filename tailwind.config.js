@@ -6,7 +6,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'sans': ['Barlow'],
+        'sans': ['Inter'],
         'mono': ['Roboto Mono'],
       },
       spacing: {
