@@ -11,3 +11,7 @@ body {
 
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  max-width: 800px;
+}
