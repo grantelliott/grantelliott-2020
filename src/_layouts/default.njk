@@ -6,9 +6,9 @@
     <title>
       {% set activePage = page.url %}
       {% if activePage == '/' %}
-      {{ site.title }} | Photo Blog
+      {{ site.title }}
       {% else %}
-      {{ title }}
+      {{ title }} | {{ site.title }}
       {% endif %}
     </title>
     {% if env == 'production' %}
