@@ -10,7 +10,3 @@ body {
 
 @tailwind components;
 @tailwind utilities;
-
-* {
-  font-family: 'Barlow', sans-serif;
-  }
