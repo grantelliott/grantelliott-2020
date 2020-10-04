@@ -1,6 +1,6 @@
 ---
 layout: photos.njk
-title: Athens, Greece
+title: Athens, Greece 🇬🇷
 tags:
   - photos
   - roundTheWorld
