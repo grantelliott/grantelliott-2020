@@ -18,9 +18,11 @@ body {
 
 li.highlight:last-of-type::after {
   content: "NEW";
-  display: inline-block;
-  font-size: 8px;
+  @apply inline-block;
+  @apply text-sm;
   @apply bg-yellow-300;
-  padding: 2px;
+  @apply p-2;
   @apply rounded-full;
+  @apply ml-4;
+  @apply font-bold;
 }
