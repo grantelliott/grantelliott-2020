@@ -20,6 +20,7 @@ li.highlight:last-of-type::after {
   content: "NEW";
   display: inline-block;
   font-size: 8px;
-  background-color: @apply bg-yellow-300;
+  @apply bg-yellow-300;
   padding: 2px;
+  @apply rounded-full;
 }
