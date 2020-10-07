@@ -19,10 +19,11 @@ body {
 li.highlight:last-of-type::after {
   content: "NEW";
   @apply inline-block;
-  @apply text-sm;
+  @apply text-xs;
   @apply bg-yellow-300;
-  @apply p-2;
+  @apply ph-4;
+  @apply pv-2;
   @apply rounded-full;
-  @apply ml-4;
+  @apply ml-2;
   @apply font-bold;
 }
