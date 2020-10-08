@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
 
 @tailwind base;
 
@@ -26,5 +25,5 @@ li.highlight:last-of-type::after {
   @apply rounded-full;
   @apply ml-2;
   @apply font-bold;
-  @apply -mt-1;
+  @apply -mt-2;
 }
