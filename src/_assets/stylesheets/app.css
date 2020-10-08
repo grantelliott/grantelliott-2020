@@ -26,4 +26,5 @@ li.highlight:last-of-type::after {
   @apply rounded-full;
   @apply ml-2;
   @apply font-bold;
+  @apply -mt-1;
 }
