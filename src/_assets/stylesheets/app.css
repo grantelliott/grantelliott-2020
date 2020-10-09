@@ -23,5 +23,5 @@ li.highlight:last-of-type::after {
   @apply ml-2;
   @apply tracking-loose;
   @apply font-mono;
-  @apply font-bold;
+  font-weight: 400;
 }
