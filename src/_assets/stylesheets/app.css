@@ -21,7 +21,6 @@ li.highlight:last-of-type::after {
   @apply text-xs;
   @apply text-orange-400;
   @apply ml-2;
-  @apply tracking-loose;
   @apply font-mono;
   font-weight: 400;
 }
