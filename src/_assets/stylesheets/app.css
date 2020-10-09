@@ -20,9 +20,9 @@ li.highlight:last-of-type::after {
   @apply inline-block;
   @apply text-xs;
   @apply bg-yellow-300;
-  @apply px-1;
-  @apply rounded;
+  @apply px-2;
+  @apply py-1;
+  @apply rounded-full;
   @apply ml-2;
-  @apply font-mono;
-  font-weight: 400;
+  @apply font-bold;
 }
